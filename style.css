@@ -1,0 +1,586 @@
+/* =====google font ===== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: #f5f7fa;
+}
+/* ====== start nav section ===== */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 22px;
+}
+.logo {
+  max-width: 150px;
+}
+.logo img {
+  width: 100%;
+}
+.menu ul {
+  display: flex;
+  gap: 50px;
+}
+
+.menu ul li a {
+  color: #18191f;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.auth ul {
+  display: flex;
+  gap: 14px;
+}
+
+.auth ul li a {
+  color: #4caf4f;
+  font-size: 14px;
+}
+.btn-sm {
+  padding: 10px 20px;
+  background: #4caf4f;
+  text-align: center;
+  border-radius: 6px;
+}
+.btn-md {
+  padding: 14px 32px;
+  background: #4caf4f;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.auth ul li:last-child a {
+  color: #fff;
+}
+/* ===== end nav section ===== */
+/* ======================================== */
+/* ===== start hero section ====== */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 104px;
+  margin-top: 96px;
+}
+
+.hero-section .text-content h2 {
+  color: #4d4d4d;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+}
+.hero-section .text-content h2 span {
+  color: #4caf4f;
+}
+.hero-section .text-content p {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero-section .image {
+  max-width: 390px;
+  height: 400px;
+}
+.hero-section .image img {
+  width: 100%;
+}
+.icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  gap: 10px;
+  color: #4caf4f;
+  padding-bottom: 15px;
+}
+.icon .frist {
+  opacity: 0.3;
+}
+/* ===== end hero section ====== */
+/* ================================================ */
+/* ===== start our clients section ====== */
+
+.our-client {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.our-client h2 {
+  color: #4d4d4d;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.our-client p {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.our-client .image {
+  display: flex;
+  height: 98px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+/* ===== start our clients section ====== */
+/* ========================================== */
+/* ====== start community section ===== */
+.community {
+  margin-top: 40px;
+}
+.community h2 {
+  color: #4d4d4d;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.community > p {
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.community .card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+.community .card .item {
+  width: 30%;
+  padding: 24px 32px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+.community .card .item .commu-icon {
+  max-width: 20%;
+  margin: auto;
+  border-radius: 18px 5px 10px 5px;
+  background: #e8f5e9;
+}
+.community .card .item .commu-icon img {
+  transform: translate(-12px, -18px);
+}
+.community .card .item h3 {
+  font-size: 28px;
+  color: #4d4d4d;
+  text-align: center;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 16px;
+}
+
+.community .card .item p {
+  color: #717171;
+  font-size: 14px;
+  padding-top: 10px;
+  margin: auto;
+  font-weight: 400;
+  line-height: 20px;
+  width: 80%;
+  text-align: center;
+}
+/* ====== end community section ===== */
+/* ======================================== */
+/* ===== satrt pixelgrade section ====== */
+.pixelgrade {
+  display: flex;
+  justify-content: space-between;
+}
+.pixelgrade .image {
+  display: flex;
+  width: 442px;
+  height: 433px;
+  padding: 52px 0.467px 52.005px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.pixelgrade .image img {
+  width: 100%;
+  height: 100%;
+}
+.pixelgrade .text-content {
+  margin: auto;
+  max-width: 570px;
+}
+
+.pixelgrade .text-content h2 {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.pixelgrade .text-content p {
+  font-size: 14px;
+  color: #717171;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+/* ====== end pixelgrade section ====== */
+/* =============================================== */
+/* ====== stat reinvent section ====== */
+.reinvent-body {
+  background: #f5f7fa;
+  padding: 64px 0;
+}
+.reinvent {
+  display: flex;
+}
+.reinvent .text-content {
+  margin: auto;
+  width: 540px;
+}
+.reinvent .text-content h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+.reinvent .text-content span {
+  color: #4caf4f;
+}
+.reinvent .text-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.reinvent .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.reinvent .icon .left {
+  margin-right: 50px;
+}
+.reinvent .icon .icn {
+  display: flex;
+}
+.reinvent .icon .top {
+  margin-bottom: 40px;
+}
+.reinvent .icon .icn .text {
+  margin-left: 16px;
+}
+.reinvent .icon .icn .text h2 {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-weight: 700;
+}
+.reinvent .icon .icn .text p {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: start;
+}
+/* ====== end reinvent section ====== */
+/* ======================================== */
+/* ====== satrt design section ====== */
+.design {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+.design .image {
+  display: flex;
+  width: 442px;
+  height: 433px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.design .image img {
+  width: 100%;
+  height: 100%;
+}
+.design .text-content {
+  margin: auto;
+  max-width: 570px;
+}
+
+.design .text-content h2 {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.design .text-content p {
+  font-size: 14px;
+  color: #717171;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+/* ====== end design section ====== */
+/* =========================================== */
+/* ====== start article section ======= */
+.article-body {
+  background: #f5f7fa;
+}
+.article {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  gap: 78px;
+  padding: 32px 0;
+}
+.article .image {
+  display: flex;
+  max-width: 330px;
+  max-height: 330px;
+  justify-content: center;
+  align-items: center;
+}
+.article .image img {
+  width: 100%;
+  height: 100%;
+}
+.article .text-content {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.article .text-content p {
+  font-size: 16px;
+  color: #717171;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: justify;
+}
+.article .text-content h4 {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.article .text-content span {
+  font-size: 16px;
+  color: #89939e;
+  font-weight: 400;
+  line-height: 24px;
+}
+.article .text-content .article-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.article .text-content .article-icon .customers {
+  padding: 5px 0;
+}
+.article .text-content .article-icon .customers a {
+  color: #4caf4f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+/* ====== end article section ======= */
+/* ============================================= */
+/* ====== srart marketing section ====== */
+.marketing {
+  margin-top: 48px;
+}
+.marketing h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.marketing p {
+  margin: 0 auto;
+  max-width: 630px;
+  text-align: center;
+  color: #717171;
+  font-weight: 400;
+  line-height: 24px;
+}
+.marketing .marketing-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.marketing .marketing-card {
+  max-width: 30%;
+}
+.marketing .marketing-card .photo {
+  width: 100%;
+}
+.marketing .marketing-card .text {
+  background: #f5f7fa;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  transform: translate(0px, -75px);
+  max-width: 290px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.marketing .marketing-card .text p {
+  font-size: 16px;
+  color: #717171;
+}
+.marketing .marketing-card .text .read {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.marketing .marketing-card .text .read a {
+  font-size: 20px;
+  color: #4caf4f;
+  font-weight: 600;
+}
+.marketing .marketing-card .text .read img {
+  padding: 8px 5px 8px 4.414px;
+}
+/* ====== end marketing section ====== */
+/* ============================================== */
+/* ====== start suscipit section ====== */
+.suscipit-body {
+  background: #f5f7fa;
+}
+.suscipit {
+  text-align: center;
+  padding: 32px 0;
+}
+.suscipit h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  color: #263238;
+}
+.suscipit .read {
+  display: inline-block;
+  margin-top: 32px;
+  font-size: 16px;
+  padding: 14px 32px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: #4caf4f;
+  gap: 8px;
+}
+.suscipit .read a {
+  color: #fff;
+}
+.suscipit .read i {
+  color: #fff;
+  font-size: 14px;
+}
+/* ====== end suscipit section ====== */
+/* ================================================ */
+/* ====== start footer section ====== */
+footer {
+  background: #263238;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 20px;
+  gap: 125px;
+}
+.footer .social {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer .social .logo {
+  max-width: 150px;
+}
+.logo img {
+  width: 100%;
+}
+.footer .social p {
+  color: #f5f7fa;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.footer .social .social-icon {
+  display: flex;
+  gap: 10px;
+}
+.footer .contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer .contact h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+.footer .contact a {
+  color: #f5f7fa;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer .contact .flex ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 160px;
+}
+.footer .contact input {
+  width: 255px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  border-radius: 8px;
+  background: #515b60;
+  padding: 15px;
+  outline: none;
+  color: #fff;
+}
+.footer .contact input::placeholder {
+  color: #fff;
+}
+.footer .contact .up-to-date img {
+  width: 20px;
+  transform: translate(-35px, 4px);
+}
+/* ====== end footer section ====== */
