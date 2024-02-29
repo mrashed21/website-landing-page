@@ -224,7 +224,7 @@ nav {
 }
 .pixelgrade .image {
   display: flex;
-  width: 442px;
+  max-width: 442px;
   height: 433px;
   padding: 52px 0.467px 52.005px 0px;
   justify-content: center;
@@ -267,7 +267,7 @@ nav {
 }
 .reinvent .text-content {
   margin: auto;
-  width: 540px;
+  max-width: 540px;
 }
 .reinvent .text-content h2 {
   font-size: 36px;
@@ -322,7 +322,7 @@ nav {
 }
 .design .image {
   display: flex;
-  width: 442px;
+  max-width: 442px;
   height: 433px;
   justify-content: center;
   align-items: center;
